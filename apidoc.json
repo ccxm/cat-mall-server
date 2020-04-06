@@ -1,0 +1,8 @@
+{
+    "name": "cxm",
+    "version": "0.1.0",
+    "description": "apiDoc basic example",
+    "title": "Cxmmao Mall apiDoc",
+    "url" : "https://mall.cxmmao.com/api-mall",
+    "sampleUrl": "https://mall.cxmmao.com/api-mall"
+  }
