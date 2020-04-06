@@ -2,9 +2,9 @@ export const goods = [
     {
         goodsId: '100001',
         goodsName: '英短蓝猫',
-        originalPrice: 2500,
-        discountPrice: 1500,
-        memberPrice: 1499,
+        originalPrice: 88.88,
+        discountPrice: 60.00,
+        memberPrice: 39.9,
         masterImg: 'https://gd2.alicdn.com/imgextra/i3/2200828121620/O1CN018Anp4u1Nq0BYAaqyv_!!2200828121620.jpg_50x50.jpg_.webp',
         intro: '纯种英国短毛猫蓝猫猫咪活物幼猫宠物猫 上海可实地挑选',
         imgList: [
@@ -17,10 +17,10 @@ export const goods = [
     },
     {
         goodsId: '100002',
-        goodsName: '蓝猫',
-        originalPrice: 1500,
-        discountPrice: 300,
-        memberPrice: 299,
+        goodsName: '小橘猫',
+        originalPrice: 90.9,
+        discountPrice: 80,
+        memberPrice: 71.2,
         masterImg: 'https://gd3.alicdn.com/imgextra/i3/3630267353/O1CN01hJTdzB24BipU3nyN5_!!3630267353.jpg_50x50.jpg_.webp',
         intro: '英短活体蓝猫纯种短毛猫英国短毛蓝猫幼猫猫崽蓝胖子宠物家养猫咪',
         imgList: [
@@ -35,9 +35,9 @@ export const goods = [
     {
         goodsId: '100003',
         goodsName: '金渐层幼猫',
-        originalPrice: 6800,
-        discountPrice: 680,
-        memberPrice: 599,
+        originalPrice: 200,
+        discountPrice: 188.8,
+        memberPrice: 150,
         masterImg: 'https://gd2.alicdn.com/imgextra/i3/2200735262068/O1CN01ckuOuX1R9Bdhdjx7A_!!2200735262068.png_50x50.jpg_.webp',
         intro: '纯种金渐层 英短金渐层 金渐层幼猫 金渐层幼猫 上海可上门挑选',
         imgList: [
@@ -52,9 +52,9 @@ export const goods = [
     {
         goodsId: '100004',
         goodsName: '海豹猫',
-        originalPrice: 8800,
-        discountPrice: 1099,
-        memberPrice: 888,
+        originalPrice: 399,
+        discountPrice: 388,
+        memberPrice: 100,
         masterImg: 'https://gd3.alicdn.com/imgextra/i1/2200735262068/O1CN01Y6FJ8o1R9Bcnyingg_!!2200735262068.png_50x50.jpg_.webp',
         intro: '纯种蓝双色布偶猫幼猫 活体宠物 海豹双色布偶猫 上海可实体挑选',
         imgList: [
@@ -69,9 +69,9 @@ export const goods = [
     {
         goodsId: '100005',
         goodsName: '布偶猫咪',
-        originalPrice: 688,
-        discountPrice: 288,
-        memberPrice: 199,
+        originalPrice: 450,
+        discountPrice: 430,
+        memberPrice: 299,
         masterImg: 'https://gd2.alicdn.com/imgextra/i2/2200735262068/O1CN01Qr6YlD1R9BcAIn9zA_!!2200735262068.jpg_50x50.jpg_.webp',
         intro: '纯种布偶猫咪海豹双色蓝双山猫色宠物活体幼猫 上海可实地挑选',
         imgList: [
@@ -298,12 +298,12 @@ export const goods = [
     },
     {
         goodsId: '100019',
-        goodsName: '纯种蓝猫活体蓝猫幼猫英短蓝猫 蓝猫英短英国短毛猫 蓝猫宠物猫咪',
+        goodsName: '短毛蓝猫',
         originalPrice: 800,
         discountPrice: 403,
         memberPrice: 203,
         masterImg: 'https://gd4.alicdn.com/imgextra/i4/2206709760453/O1CN01QR4SxS1FDVzv9CxEb_!!2206709760453.jpg_50x50.jpg_.webp',
-        intro: '',
+        intro: '纯种蓝猫活体蓝猫幼猫英短蓝猫 蓝猫英短英国短毛猫 蓝猫宠物猫咪',
         imgList: [
             'https://gd4.alicdn.com/imgextra/i4/2206709760453/O1CN01QR4SxS1FDVzv9CxEb_!!2206709760453.jpg_50x50.jpg_.webp',
             'https://gd1.alicdn.com/imgextra/i1/2206709760453/O1CN0183wzWY1FDVzr7uqX0_!!2206709760453.jpg_50x50.jpg_.webp',

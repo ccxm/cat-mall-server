@@ -218,7 +218,7 @@ export const getMoreGoodsList = async (req: Request, res: Response, next: NextFu
 }
 
 export const updateGoodsInfo = (goodsItem: any) => {
-    goodsModel.updateOne({goodsId: goodItem.goodsId}, {
+    goodsModel.updateOne({goodsId: goodsItem.goodsId}, {
         $set: {
             goodsName: goodsItem.goodsName,
             originalPrice: goodsItem.originalPrice,
@@ -230,6 +230,7 @@ export const updateGoodsInfo = (goodsItem: any) => {
             'goodsInfo.imgList': goodsItem.imgList
         }
     }).then(doc => {
+        console.log(doc)
         if(doc.n) {
             console.log('更新成功')
         }
