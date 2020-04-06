@@ -1,8 +1,11 @@
 {
-    "name": "cxm",
-    "version": "0.1.0",
-    "description": "apiDoc basic example",
-    "title": "Cxmmao Mall apiDoc",
+    "name": "Cxm",
+    "version": "1.0.0",
+    "description": "猫咪商城的接口文档",
+    "title": "Cat Mall apiDoc",
     "url" : "https://mall.cxmmao.com/api-mall",
-    "sampleUrl": "https://mall.cxmmao.com/api-mall"
+    "sampleUrl": "https://mall.cxmmao.com/api-mall",
+    "footer": {
+      "title": "基于Apidoc 有问题请联系Cxm: 1532917281@qq.com"
+    }
   }
