@@ -49,6 +49,8 @@ app.use(testWithRules)
 app.get('/', (req: Request, res: Response) => {
     res.end('helloworld')
 })
+
+// 实例化路由
 new UserRouter(app)
 new PublicRouter(app)
 new GoodsRouter(app)

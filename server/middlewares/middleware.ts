@@ -54,6 +54,7 @@ const _checkParamIsEmpty = (reqObj: object, testObj: object): IParamsCheckRes =>
             emptyResultStr += key + config.EMPTY_PARAM_TIP + '；'
             continue
         }
+        // 递归检查对象数组
         if (Object.prototype.toString.call(testObj[key]) === '[object Array]'
             && Object.prototype.toString.call(testObj[key][0]) === '[object Object]') {
             reqObj[key].forEach((item: any) => {

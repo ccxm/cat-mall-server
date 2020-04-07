@@ -2,6 +2,7 @@ import {statusCode} from '../config/statusCode'
 import * as interf from '../interfaces/publicInterfaces'
 import {Request, Response, NextFunction} from 'express'
 
+// 成功的响应
 export const success = (data: object, res: Response, msg?:string):void => {
     const temp:interf.IResponse = {
         code: statusCode.SUCCESS.code,
