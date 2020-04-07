@@ -15,7 +15,7 @@ import {
     testNumber,
     test_color,
     test_rate
-} from './../utils/utils'
+} from './utils'
 
 /**
  * 检验规则

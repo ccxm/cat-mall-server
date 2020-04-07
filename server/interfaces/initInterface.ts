@@ -1,5 +1,5 @@
 import {statusCode} from '../config/statusCode'
-import * as interf from './interfaces'
+import * as interf from './publicInterfaces'
 
 export const successResponse:interf.IResponse = {
     code: statusCode.SUCCESS.code,

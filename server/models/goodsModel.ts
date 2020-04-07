@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose'
-import { IGoods, IComment } from '../public/interfaces'
+import { IGoods, IComment } from '../interfaces/publicInterfaces'
 
 export const goodsSchema = new mongoose.Schema({
     goodsId: {

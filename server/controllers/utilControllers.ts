@@ -1,5 +1,5 @@
 import { NextFunction } from 'express'
-import { IAutoIdParam } from './../public/interfaces'
+import { IAutoIdParam } from '../interfaces/publicInterfaces'
 import * as mongoose from 'mongoose'
 
 export const autoId = async (model: mongoose.Model<mongoose.Document, {}>, params: IAutoIdParam, next: NextFunction) => {

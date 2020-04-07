@@ -1,11 +1,11 @@
 import { Request, Response, NextFunction } from 'express'
 import { emailSchema } from '../models/userModel'
-import { IEmail} from '../public/interfaces'
-import { createVerifyCode, jointVerifyCode, deepCopy } from '../utils/utils'
+import { IEmail} from '../interfaces/publicInterfaces'
+import { createVerifyCode, jointVerifyCode, deepCopy } from '../public/utils'
 import { config } from '../config/base'
 import * as nodemailer from 'nodemailer'
 import * as md5 from 'md5'
-import * as resFunc from '../public/resFunc'
+import * as resFunc from './../public/resFunc'
 import * as mongoose from 'mongoose'
 
 const emailModel:mongoose.Model<mongoose.Document, {}> = mongoose.model('emails', emailSchema)

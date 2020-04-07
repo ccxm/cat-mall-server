@@ -1,10 +1,10 @@
 import { Request, Response, NextFunction } from 'express'
 import { config } from './../config/base'
 import { rules } from './../public/rules'
-import { IParamsCheckRes } from './../public/interfaces'
+import { IParamsCheckRes } from '../interfaces/publicInterfaces'
 import { appoint } from './../public/resFunc'
 import { statusCode } from './../config/statusCode'
-import { IReqToken } from './../public/interfaces'
+import { IReqToken } from '../interfaces/publicInterfaces'
 import * as jwt from 'jsonwebtoken'
 
 // 解析请求参数，所有参数都在params里拿到

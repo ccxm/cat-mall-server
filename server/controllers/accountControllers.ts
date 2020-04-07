@@ -1,14 +1,14 @@
 import { Request, Response, NextFunction } from 'express'
 import { accountSchema } from '../models/userModel'
-import { IAccount, IAccountOrderParam, IPayAuthParam } from '../public/accountInterfaces'
-import { ISaveOrderItem } from './../public/orderInterfaces'
+import { IAccount, IAccountOrderParam, IPayAuthParam } from '../interfaces/accountInterfaces'
+import { ISaveOrderItem } from '../interfaces/orderInterfaces'
 import { checkCodeIsExist } from './emailController'
 import { config } from '../config/base'
-import { createUuid } from '../utils/utils'
+import { createUuid } from '../public/utils'
 import { paymentState, rechargeList } from './../config/constant'
 import { statusCode } from '../config/statusCode'
 import * as md5 from 'md5'
-import * as resFunc from '../public/resFunc'
+import * as resFunc from './../public/resFunc'
 import * as mongoose from 'mongoose'
 
 const accountModel = mongoose.model('accounts', accountSchema)

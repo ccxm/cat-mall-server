@@ -1,10 +1,10 @@
 import { Request, Response, NextFunction } from 'express'
 import { accountSchema } from '../models/userModel'
 import { config } from '../config/base'
-import { IUpdateCart, ICartQueryParam, IGetCartList, IGetCartRes } from './../public/cartInterfaces'
+import { IUpdateCart, ICartQueryParam, IGetCartList, IGetCartRes } from '../interfaces/cartInterfaces'
 import { checkGoodsIsExist } from './goodsControllers'
 import { statusCode } from '../config/statusCode'
-import * as resFunc from '../public/resFunc'
+import * as resFunc from './../public/resFunc'
 import * as mongoose from 'mongoose'
 
 const accountModel = mongoose.model('accounts', accountSchema)

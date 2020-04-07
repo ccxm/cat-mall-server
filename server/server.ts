@@ -10,12 +10,12 @@ import { CommentRouter } from './routers/commentRouter'
 import { AccountRouter } from './routers/accountRouter'
 import { OrderRouter } from './routers/orderRouter'
 import { CartRouter } from './routers/cartRouter'
-import { failResponse } from './public/initInterface'
+import { failResponse } from './interfaces/initInterface'
 import { statusCode } from './config/statusCode'
 import * as expressJwt from 'express-jwt'
 import * as resFunc from './public/resFunc'
 import './config/connectDB'
-import './public/interfaces'
+import './interfaces/publicInterfaces'
 
 const app = express()
 

@@ -1,6 +1,6 @@
 import { goodsSchema, commentSchema, goodItem, commentItem } from '../models/goodsModel'
-import { createVerifyCode, deepCopy } from './../utils/utils'
-import { IGoods, IComment } from './../public/interfaces'
+import { createVerifyCode, deepCopy } from '../public/utils'
+import { IGoods, IComment } from '../interfaces/publicInterfaces'
 import *  as mongoose from 'mongoose'
 
 const goodsModel = mongoose.model('goods', goodsSchema)

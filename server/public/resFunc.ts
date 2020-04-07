@@ -1,5 +1,5 @@
 import {statusCode} from '../config/statusCode'
-import * as interf from './interfaces'
+import * as interf from '../interfaces/publicInterfaces'
 import {Request, Response, NextFunction} from 'express'
 
 export const success = (data: object, res: Response, msg?:string):void => {
